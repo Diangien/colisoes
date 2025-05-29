@@ -22,7 +22,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           {children}
         </main>
         <footer className="mt-12 text-center text-blue-300 text-sm">
-          <p>© {new Date().getFullYear()} Physics Collision Calculator</p>
+          <p>© {new Date().getFullYear()} Calculadora de colisões</p>
         </footer>
       </div>
     </div>
